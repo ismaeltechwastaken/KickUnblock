@@ -1,0 +1,533 @@
+{
+  "images": [
+    {
+      "filename": "AppIcon-Inverted-20@2x.png",
+      "idiom": "universal",
+      "platform": "ios",
+      "scale": "2x",
+      "size": "20x20"
+    },
+    {
+      "filename": "AppIcon-Inverted-20@3x.png",
+      "idiom": "universal",
+      "platform": "ios",
+      "scale": "3x",
+      "size": "20x20"
+    },
+    {
+      "filename": "AppIcon-Inverted-29@2x.png",
+      "idiom": "universal",
+      "platform": "ios",
+      "scale": "2x",
+      "size": "29x29"
+    },
+    {
+      "filename": "AppIcon-Inverted-29@3x.png",
+      "idiom": "universal",
+      "platform": "ios",
+      "scale": "3x",
+      "size": "29x29"
+    },
+    {
+      "filename": "AppIcon-Inverted-38@2x.png",
+      "idiom": "universal",
+      "platform": "ios",
+      "scale": "2x",
+      "size": "38x38"
+    },
+    {
+      "filename": "AppIcon-Inverted-38@3x.png",
+      "idiom": "universal",
+      "platform": "ios",
+      "scale": "3x",
+      "size": "38x38"
+    },
+    {
+      "filename": "AppIcon-Inverted-40@2x.png",
+      "idiom": "universal",
+      "platform": "ios",
+      "scale": "2x",
+      "size": "40x40"
+    },
+    {
+      "filename": "AppIcon-Inverted-40@3x.png",
+      "idiom": "universal",
+      "platform": "ios",
+      "scale": "3x",
+      "size": "40x40"
+    },
+    {
+      "filename": "AppIcon-Inverted-60@2x.png",
+      "idiom": "universal",
+      "platform": "ios",
+      "scale": "2x",
+      "size": "60x60"
+    },
+    {
+      "filename": "AppIcon-Inverted-60@3x.png",
+      "idiom": "universal",
+      "platform": "ios",
+      "scale": "3x",
+      "size": "60x60"
+    },
+    {
+      "filename": "AppIcon-Inverted-64@2x.png",
+      "idiom": "universal",
+      "platform": "ios",
+      "scale": "2x",
+      "size": "64x64"
+    },
+    {
+      "filename": "AppIcon-Inverted-64@3x.png",
+      "idiom": "universal",
+      "platform": "ios",
+      "scale": "3x",
+      "size": "64x64"
+    },
+    {
+      "filename": "AppIcon-Inverted-68@2x.png",
+      "idiom": "universal",
+      "platform": "ios",
+      "scale": "2x",
+      "size": "68x68"
+    },
+    {
+      "filename": "AppIcon-Inverted-76@2x.png",
+      "idiom": "universal",
+      "platform": "ios",
+      "scale": "2x",
+      "size": "76x76"
+    },
+    {
+      "filename": "AppIcon-Inverted-83.5@2x.png",
+      "idiom": "universal",
+      "platform": "ios",
+      "scale": "2x",
+      "size": "83.5x83.5"
+    },
+    {
+      "filename": "AppIcon-Inverted-1024.png",
+      "idiom": "universal",
+      "platform": "ios",
+      "size": "1024x1024"
+    },
+    {
+      "appearances": [
+        {
+          "appearance": "luminosity",
+          "value": "dark"
+        }
+      ],
+      "filename": "AppIcon-Inverted-Dark-20@2x.png",
+      "idiom": "universal",
+      "platform": "ios",
+      "scale": "2x",
+      "size": "20x20"
+    },
+    {
+      "appearances": [
+        {
+          "appearance": "luminosity",
+          "value": "dark"
+        }
+      ],
+      "filename": "AppIcon-Inverted-Dark-20@3x.png",
+      "idiom": "universal",
+      "platform": "ios",
+      "scale": "3x",
+      "size": "20x20"
+    },
+    {
+      "appearances": [
+        {
+          "appearance": "luminosity",
+          "value": "dark"
+        }
+      ],
+      "filename": "AppIcon-Inverted-Dark-29@2x.png",
+      "idiom": "universal",
+      "platform": "ios",
+      "scale": "2x",
+      "size": "29x29"
+    },
+    {
+      "appearances": [
+        {
+          "appearance": "luminosity",
+          "value": "dark"
+        }
+      ],
+      "filename": "AppIcon-Inverted-Dark-29@3x.png",
+      "idiom": "universal",
+      "platform": "ios",
+      "scale": "3x",
+      "size": "29x29"
+    },
+    {
+      "appearances": [
+        {
+          "appearance": "luminosity",
+          "value": "dark"
+        }
+      ],
+      "filename": "AppIcon-Inverted-Dark-38@2x.png",
+      "idiom": "universal",
+      "platform": "ios",
+      "scale": "2x",
+      "size": "38x38"
+    },
+    {
+      "appearances": [
+        {
+          "appearance": "luminosity",
+          "value": "dark"
+        }
+      ],
+      "filename": "AppIcon-Inverted-Dark-38@3x.png",
+      "idiom": "universal",
+      "platform": "ios",
+      "scale": "3x",
+      "size": "38x38"
+    },
+    {
+      "appearances": [
+        {
+          "appearance": "luminosity",
+          "value": "dark"
+        }
+      ],
+      "filename": "AppIcon-Inverted-Dark-40@2x.png",
+      "idiom": "universal",
+      "platform": "ios",
+      "scale": "2x",
+      "size": "40x40"
+    },
+    {
+      "appearances": [
+        {
+          "appearance": "luminosity",
+          "value": "dark"
+        }
+      ],
+      "filename": "AppIcon-Inverted-Dark-40@3x.png",
+      "idiom": "universal",
+      "platform": "ios",
+      "scale": "3x",
+      "size": "40x40"
+    },
+    {
+      "appearances": [
+        {
+          "appearance": "luminosity",
+          "value": "dark"
+        }
+      ],
+      "filename": "AppIcon-Inverted-Dark-60@2x.png",
+      "idiom": "universal",
+      "platform": "ios",
+      "scale": "2x",
+      "size": "60x60"
+    },
+    {
+      "appearances": [
+        {
+          "appearance": "luminosity",
+          "value": "dark"
+        }
+      ],
+      "filename": "AppIcon-Inverted-Dark-60@3x.png",
+      "idiom": "universal",
+      "platform": "ios",
+      "scale": "3x",
+      "size": "60x60"
+    },
+    {
+      "appearances": [
+        {
+          "appearance": "luminosity",
+          "value": "dark"
+        }
+      ],
+      "filename": "AppIcon-Inverted-Dark-64@2x.png",
+      "idiom": "universal",
+      "platform": "ios",
+      "scale": "2x",
+      "size": "64x64"
+    },
+    {
+      "appearances": [
+        {
+          "appearance": "luminosity",
+          "value": "dark"
+        }
+      ],
+      "filename": "AppIcon-Inverted-Dark-64@3x.png",
+      "idiom": "universal",
+      "platform": "ios",
+      "scale": "3x",
+      "size": "64x64"
+    },
+    {
+      "appearances": [
+        {
+          "appearance": "luminosity",
+          "value": "dark"
+        }
+      ],
+      "filename": "AppIcon-Inverted-Dark-68@2x.png",
+      "idiom": "universal",
+      "platform": "ios",
+      "scale": "2x",
+      "size": "68x68"
+    },
+    {
+      "appearances": [
+        {
+          "appearance": "luminosity",
+          "value": "dark"
+        }
+      ],
+      "filename": "AppIcon-Inverted-Dark-76@2x.png",
+      "idiom": "universal",
+      "platform": "ios",
+      "scale": "2x",
+      "size": "76x76"
+    },
+    {
+      "appearances": [
+        {
+          "appearance": "luminosity",
+          "value": "dark"
+        }
+      ],
+      "filename": "AppIcon-Inverted-Dark-83.5@2x.png",
+      "idiom": "universal",
+      "platform": "ios",
+      "scale": "2x",
+      "size": "83.5x83.5"
+    },
+    {
+      "appearances": [
+        {
+          "appearance": "luminosity",
+          "value": "dark"
+        }
+      ],
+      "filename": "AppIcon-Inverted-Dark-1024.png",
+      "idiom": "universal",
+      "platform": "ios",
+      "size": "1024x1024"
+    },
+    {
+      "appearances": [
+        {
+          "appearance": "luminosity",
+          "value": "tinted"
+        }
+      ],
+      "filename": "AppIcon-Inverted-Tinted-20@2x.png",
+      "idiom": "universal",
+      "platform": "ios",
+      "scale": "2x",
+      "size": "20x20"
+    },
+    {
+      "appearances": [
+        {
+          "appearance": "luminosity",
+          "value": "tinted"
+        }
+      ],
+      "filename": "AppIcon-Inverted-Tinted-20@3x.png",
+      "idiom": "universal",
+      "platform": "ios",
+      "scale": "3x",
+      "size": "20x20"
+    },
+    {
+      "appearances": [
+        {
+          "appearance": "luminosity",
+          "value": "tinted"
+        }
+      ],
+      "filename": "AppIcon-Inverted-Tinted-29@2x.png",
+      "idiom": "universal",
+      "platform": "ios",
+      "scale": "2x",
+      "size": "29x29"
+    },
+    {
+      "appearances": [
+        {
+          "appearance": "luminosity",
+          "value": "tinted"
+        }
+      ],
+      "filename": "AppIcon-Inverted-Tinted-29@3x.png",
+      "idiom": "universal",
+      "platform": "ios",
+      "scale": "3x",
+      "size": "29x29"
+    },
+    {
+      "appearances": [
+        {
+          "appearance": "luminosity",
+          "value": "tinted"
+        }
+      ],
+      "filename": "AppIcon-Inverted-Tinted-38@2x.png",
+      "idiom": "universal",
+      "platform": "ios",
+      "scale": "2x",
+      "size": "38x38"
+    },
+    {
+      "appearances": [
+        {
+          "appearance": "luminosity",
+          "value": "tinted"
+        }
+      ],
+      "filename": "AppIcon-Inverted-Tinted-38@3x.png",
+      "idiom": "universal",
+      "platform": "ios",
+      "scale": "3x",
+      "size": "38x38"
+    },
+    {
+      "appearances": [
+        {
+          "appearance": "luminosity",
+          "value": "tinted"
+        }
+      ],
+      "filename": "AppIcon-Inverted-Tinted-40@2x.png",
+      "idiom": "universal",
+      "platform": "ios",
+      "scale": "2x",
+      "size": "40x40"
+    },
+    {
+      "appearances": [
+        {
+          "appearance": "luminosity",
+          "value": "tinted"
+        }
+      ],
+      "filename": "AppIcon-Inverted-Tinted-40@3x.png",
+      "idiom": "universal",
+      "platform": "ios",
+      "scale": "3x",
+      "size": "40x40"
+    },
+    {
+      "appearances": [
+        {
+          "appearance": "luminosity",
+          "value": "tinted"
+        }
+      ],
+      "filename": "AppIcon-Inverted-Tinted-60@2x.png",
+      "idiom": "universal",
+      "platform": "ios",
+      "scale": "2x",
+      "size": "60x60"
+    },
+    {
+      "appearances": [
+        {
+          "appearance": "luminosity",
+          "value": "tinted"
+        }
+      ],
+      "filename": "AppIcon-Inverted-Tinted-60@3x.png",
+      "idiom": "universal",
+      "platform": "ios",
+      "scale": "3x",
+      "size": "60x60"
+    },
+    {
+      "appearances": [
+        {
+          "appearance": "luminosity",
+          "value": "tinted"
+        }
+      ],
+      "filename": "AppIcon-Inverted-Tinted-64@2x.png",
+      "idiom": "universal",
+      "platform": "ios",
+      "scale": "2x",
+      "size": "64x64"
+    },
+    {
+      "appearances": [
+        {
+          "appearance": "luminosity",
+          "value": "tinted"
+        }
+      ],
+      "filename": "AppIcon-Inverted-Tinted-64@3x.png",
+      "idiom": "universal",
+      "platform": "ios",
+      "scale": "3x",
+      "size": "64x64"
+    },
+    {
+      "appearances": [
+        {
+          "appearance": "luminosity",
+          "value": "tinted"
+        }
+      ],
+      "filename": "AppIcon-Inverted-Tinted-68@2x.png",
+      "idiom": "universal",
+      "platform": "ios",
+      "scale": "2x",
+      "size": "68x68"
+    },
+    {
+      "appearances": [
+        {
+          "appearance": "luminosity",
+          "value": "tinted"
+        }
+      ],
+      "filename": "AppIcon-Inverted-Tinted-76@2x.png",
+      "idiom": "universal",
+      "platform": "ios",
+      "scale": "2x",
+      "size": "76x76"
+    },
+    {
+      "appearances": [
+        {
+          "appearance": "luminosity",
+          "value": "tinted"
+        }
+      ],
+      "filename": "AppIcon-Inverted-Tinted-83.5@2x.png",
+      "idiom": "universal",
+      "platform": "ios",
+      "scale": "2x",
+      "size": "83.5x83.5"
+    },
+    {
+      "appearances": [
+        {
+          "appearance": "luminosity",
+          "value": "tinted"
+        }
+      ],
+      "filename": "AppIcon-Inverted-Tinted-1024.png",
+      "idiom": "universal",
+      "platform": "ios",
+      "size": "1024x1024"
+    }
+  ],
+  "info": {
+    "author": "xcode",
+    "version": 1
+  }
+}

@@ -1,0 +1,55 @@
+name: KickUnblock
+options:
+  bundleIdPrefix: dev.ismaeltech
+  deploymentTarget:
+    iOS: "17.0"
+  createIntermediateGroups: true
+settings:
+  base:
+    SWIFT_VERSION: "5.9"
+    MARKETING_VERSION: "1.0"
+    CURRENT_PROJECT_VERSION: "0"
+    DEVELOPMENT_TEAM: ""
+packages:
+  KickUnblockCore:
+    path: .
+targets:
+  KickUnblock:
+    type: application
+    platform: iOS
+    deploymentTarget: "17.0"
+    sources:
+      - path: App
+      - path: Config/PrivacyInfo.xcprivacy
+        buildPhase: resources
+    dependencies:
+      - package: KickUnblockCore
+      - framework: Vendor/AmazonIVSPlayer.xcframework
+        embed: true
+    postBuildScripts:
+      - name: Alternate icon files
+        script: bash "$SRCROOT/Scripts/alt-icon-files.sh"
+        basedOnDependencyAnalysis: false
+    settings:
+      base:
+        PRODUCT_NAME: KickUnblock
+        PRODUCT_BUNDLE_IDENTIFIER: dev.ismaeltech.kickunblock
+        INFOPLIST_FILE: Config/Info.plist
+        GENERATE_INFOPLIST_FILE: NO
+        TARGETED_DEVICE_FAMILY: "1,2"
+        IPHONEOS_DEPLOYMENT_TARGET: "17.0"
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS: YES
+        ASSETCATALOG_COMPILER_ALTERNATE_APPICON_NAMES: "AppIcon-OLED AppIcon-Inverted AppIcon-Electric AppIcon-Crimson AppIcon-Gold AppIcon-MonoLight"
+        COMPRESS_PNG_FILES: NO
+        ENABLE_USER_SCRIPT_SANDBOXING: NO
+        CODE_SIGNING_ALLOWED: NO
+        CODE_SIGNING_REQUIRED: NO
+        CODE_SIGN_IDENTITY: ""
+        CODE_SIGN_ENTITLEMENTS: ""
+        ENABLE_BITCODE: NO
+schemes:
+  KickUnblock:
+    build:
+      targets:
+        KickUnblock: all
