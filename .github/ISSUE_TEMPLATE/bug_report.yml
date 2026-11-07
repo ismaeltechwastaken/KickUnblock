@@ -1,0 +1,77 @@
+name: Bug report
+description: Something does not work as expected.
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: Do not include passwords, tokens, cookies, signed stream URLs or certificates.
+  - type: input
+    id: version
+    attributes:
+      label: App version
+      description: Tweaks > About, for example 1.0 (13).
+    validations:
+      required: true
+  - type: input
+    id: device
+    attributes:
+      label: Device and iOS version
+      placeholder: iPhone 15, iOS 27.0.1
+    validations:
+      required: true
+  - type: dropdown
+    id: installer
+    attributes:
+      label: Installed with
+      options: [AltStore, SideStore, Feather, RyukSign, FlareStore, Sideloadly, TrollStore, Other]
+    validations:
+      required: true
+  - type: dropdown
+    id: playback
+    attributes:
+      label: What was playing
+      options: [Live, Rewound live, VOD, Clip, Nothing playing]
+    validations:
+      required: true
+  - type: dropdown
+    id: output
+    attributes:
+      label: Where it was playing
+      multiple: true
+      options: [In the app, Mini player, Picture in Picture, Background audio, AirPlay]
+  - type: dropdown
+    id: network
+    attributes:
+      label: Network
+      options: [Wi-Fi, Cellular, Other]
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Open a live stream
+        2. Tap ...
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What you expected and what happened
+    validations:
+      required: true
+  - type: input
+    id: channel
+    attributes:
+      label: Channel (if relevant)
+      description: Public channel name only.
+  - type: textarea
+    id: diagnostics
+    attributes:
+      label: Local diagnostics (optional)
+      description: >-
+        In Tweaks > Local diagnostics, turn on Local playback diagnostics, reproduce the problem, then tap
+        Share local diagnostics and paste the text here. It contains playback events only and never leaves
+        your phone unless you share it.
+      render: json
